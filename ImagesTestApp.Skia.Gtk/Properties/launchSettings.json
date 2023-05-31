@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "ImagesTestApp.Skia.Gtk": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": "",
+      "environmentVariables": {
+        "DISPLAY": "192.168.1.123:0.0",
+        "GDK_GL": "gles" // use this line when running under WSL on Windows 11
+      }
+    }
+  }
+}
