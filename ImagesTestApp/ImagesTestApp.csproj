@@ -26,6 +26,7 @@
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
 		<PackageReference Include="Uno.Core.Extensions.Logging.Singleton" Version="4.0.1" />
+		<PackageReference Include="Uno.Resizetizer" Version="1.1.0" />
 		<PackageReference Include="Uno.WinUI" Version="4.8.39" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)'=='net7.0-windows10.0.18362'">
@@ -43,6 +44,10 @@
 		<UpToDateCheckInput Include="**\*.xaml" Exclude="bin\**\*.xaml;obj\**\*.xaml" />
 	</ItemGroup>
 	<ItemGroup>
+		<None Remove="**\*.svg" />
+		<UnoImage Include="**\*.svg" />
+
+
 		<Content Include="..\ReferenceImages\dotnet_bot_link.png" Link="dotnet_bot_link.png" />
 		<Content Include="..\ReferenceImages\dotnet_bot_targetpath.png" Link="dotnet_bot_targetpath.png" TargetPath="dotnet_bot_targetpath.png" />
 		<Content Include="..\ReferenceImages\dotnet_bot_link_targetpath.png" TargetPath="dotnet_bot_link_targetpath.png" />
