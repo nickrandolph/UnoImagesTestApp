@@ -1,0 +1,16 @@
+{
+  "solution": {
+    "path": "ImagesTestApp.sln",
+    "projects": [
+		"ImagesTestApp\\ImagesTestApp.csproj",
+
+		"ImagesTestApp.Mobile\\ImagesTestApp.Mobile.csproj",
+
+		"ImagesTestApp.Wasm\\ImagesTestApp.Wasm.csproj",
+
+		"ImagesTestApp.Skia.Gtk\\ImagesTestApp.Skia.Gtk.csproj",
+
+		"ImagesTestApp.Skia.Gtk\\ImagesTestApp.Skia.Gtk.csproj",
+    ]
+  }
+}

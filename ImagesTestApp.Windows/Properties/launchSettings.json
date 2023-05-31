@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "ImagesTestApp.Windows": {
+      "commandName": "MsixPackage"
+    }
+  }
+}
