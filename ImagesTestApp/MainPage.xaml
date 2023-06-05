@@ -19,7 +19,9 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///dotnet_bot.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -28,8 +30,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="dotnet_bot.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -38,8 +42,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -53,7 +59,9 @@
 						   FontSize="24" />
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkRed">
-					<Image Width="300"
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///r_dotnet_bot.png" />
 					<TextBlock Text="This image should NOT be shown!" />
@@ -62,8 +70,10 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="r_dotnet_bot.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -72,8 +82,10 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///ImagesTestApp/r_dotnet_bot.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -89,8 +101,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible): iOS -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///dotnet_bot_link.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -99,8 +113,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible): Android -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="dotnet_bot_link.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -109,8 +125,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible): Android -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot_link.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -125,8 +143,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible): iOS -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///dotnet_bot_targetpath.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -135,8 +155,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image): Android -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="dotnet_bot_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -145,8 +167,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image): Android -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -162,8 +186,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible): iOS -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///dotnet_bot_link_targetpath.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -172,8 +198,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image): Android -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="dotnet_bot_link_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -182,8 +210,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image): Android -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot_link_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -206,7 +236,9 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/dotnet_bot_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -215,8 +247,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/dotnet_bot_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -225,8 +259,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -239,7 +275,9 @@
 						   FontSize="24" />
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkRed">
-					<Image Width="300"
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///Assets/r_dotnet_bot_assets.png" />
 					<TextBlock Text="This image should NOT be shown!" />
@@ -248,8 +286,10 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="Assets/r_dotnet_bot_assets.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -258,8 +298,10 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///ImagesTestApp/Assets/r_dotnet_bot_assets.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -273,8 +315,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/dotnet_bot_link_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -283,8 +327,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/dotnet_bot_link_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -293,8 +339,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_link_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -309,8 +357,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/dotnet_bot_targetpath_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -319,8 +369,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/dotnet_bot_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -329,8 +381,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -346,8 +400,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/dotnet_bot_link_targetpath_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -356,8 +412,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/dotnet_bot_link_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -366,8 +424,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_link_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -390,7 +450,9 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -399,8 +461,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/Images/dotnet_bot_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -409,8 +473,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -423,7 +489,9 @@
 						   FontSize="24" />
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkRed">
-					<Image Width="300"
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///Assets/Images/r_dotnet_bot_assets_images.png" />
 					<TextBlock Text="This image should NOT be shown!" />
@@ -432,8 +500,9 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="Assets/Images/r_dotnet_bot_assets_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -442,8 +511,9 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///ImagesTestApp/Assets/Images/r_dotnet_bot_assets_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -457,8 +527,9 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_link_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -467,8 +538,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/Images/dotnet_bot_link_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -477,8 +549,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible): WINUI -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_link_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -493,8 +566,9 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_targetpath_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -503,8 +577,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  WINUI-->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/Images/dotnet_bot_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -513,8 +588,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -530,8 +606,9 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_link_targetpath_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -540,8 +617,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image): WiNUI -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Assets/Images/dotnet_bot_link_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -550,8 +628,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image): WiNUI -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_link_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -578,7 +657,9 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Images/dotnet_bot_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -587,8 +668,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Images/dotnet_bot_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -597,8 +679,9 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -612,7 +695,9 @@
 						   FontSize="24" />
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkRed">
-					<Image Width="300"
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///Images/r_dotnet_bot_images.png" />
 					<TextBlock Text="This image should NOT be shown!" />
@@ -621,8 +706,10 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="Images/r_dotnet_bot_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -631,8 +718,10 @@
 				</Grid>
 				<Grid BorderThickness="2"
 					  BorderBrush="DarkGreen">
-					<!-- Fails (not visible): WASM, Skia(WPF), Skia(Gtk), Android, iOS -->
-					<Image Width="300"
+
+					<Image ImageOpened="ImageLoaded"
+						   ImageFailed="ImageFailed"
+						   Width="300"
 						   Height="300"
 						   Source="ms-appx:///ImagesTestApp/Images/r_dotnet_bot_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
@@ -640,14 +729,16 @@
 							   VerticalAlignment="Bottom" />
 				</Grid>
 			</StackPanel>
-			
+
 
 			<TextBlock Text="Link"
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Images/dotnet_bot_link_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -656,8 +747,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Images/dotnet_bot_link_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -666,8 +759,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (not visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_link_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -682,8 +777,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Images/dotnet_bot_targetpath_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -692,8 +789,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Images/dotnet_bot_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -702,8 +801,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -719,8 +820,10 @@
 					   FontSize="24" />
 			<Grid BorderThickness="2"
 				  BorderBrush="Red">
-				<!-- Fails (visible):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///Images/dotnet_bot_link_targetpath_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
@@ -729,8 +832,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="Images/dotnet_bot_link_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
@@ -739,8 +844,10 @@
 			</Grid>
 			<Grid BorderThickness="2"
 				  BorderBrush="Green">
-				<!-- Fails (random image):  -->
-				<Image Width="300"
+
+				<Image ImageOpened="ImageLoaded"
+					   ImageFailed="ImageFailed"
+					   Width="300"
 					   Height="300"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_link_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
