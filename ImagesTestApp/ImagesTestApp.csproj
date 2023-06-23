@@ -9,8 +9,8 @@
 		<_CanUseMobileTargets Condition="!$([MSBuild]::IsOSPlatform('Linux'))">true</_CanUseMobileTargets>
 
 		<TargetFrameworks Condition="'$(_CanUseMobileTargets)'=='true'">$(TargetFrameworks);net7.0-android</TargetFrameworks>
-		<TargetFrameworks Condition="'$(_CanUseMobileTargets)'=='true'">$(TargetFrameworks);net7.0-ios</TargetFrameworks>
-		<TargetFrameworks Condition="'$(_CanUseMobileTargets)'=='true'">$(TargetFrameworks);net7.0-maccatalyst</TargetFrameworks>
+		<!--<TargetFrameworks Condition="'$(_CanUseMobileTargets)'=='true'">$(TargetFrameworks);net7.0-ios</TargetFrameworks>
+		<TargetFrameworks Condition="'$(_CanUseMobileTargets)'=='true'">$(TargetFrameworks);net7.0-maccatalyst</TargetFrameworks>-->
 
 		<DefaultLanguage>en</DefaultLanguage>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">14.2</SupportedOSPlatformVersion>
@@ -36,9 +36,7 @@
 		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.3.230502000" />
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)'!='net7.0-windows10.0.18362'">
-		<Content Include="Assets\**" />
-		<Content Include="Images\**" />
-		<Content Include="dotnet_bot.png" />
+		<Content Include="**/*.png;**/*.bmp;**/*.jpg;**/*.dds;**/*.tif;**/*.tga;**/*.gif"   Exclude="bin\**;obj\**" />
 		<Page Include="**\*.xaml" Exclude="bin\**\*.xaml;obj\**\*.xaml" />
 		<ApplicationDefinition Include="App.xaml" Condition="exists('App.xaml')" />
 		<Compile Update="**\*.xaml.cs">
