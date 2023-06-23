@@ -23,6 +23,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///dotnet_bot.png,false"
 					   Source="ms-appx:///dotnet_bot.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -35,6 +36,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="dotnet_bot.png,true"
 					   Source="dotnet_bot.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -47,6 +49,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/dotnet_bot.png,true"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -63,6 +66,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///r_dotnet_bot.png,false"
 						   Source="ms-appx:///r_dotnet_bot.png" />
 					<TextBlock Text="This image should NOT be shown!" />
 					<TextBlock Text="ms-appx://"
@@ -75,6 +79,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="r_dotnet_bot.png,true"
 						   Source="r_dotnet_bot.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="relative"
@@ -87,6 +92,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///ImagesTestApp/r_dotnet_bot.png,true"
 						   Source="ms-appx:///ImagesTestApp/r_dotnet_bot.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="ms-appx://ImagesTestApp"
@@ -106,6 +112,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///dotnet_bot_link.png,false"
 					   Source="ms-appx:///dotnet_bot_link.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -118,6 +125,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="dotnet_bot_link.png,true"
 					   Source="dotnet_bot_link.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -130,6 +138,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/dotnet_bot_link.png,true"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot_link.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -148,6 +157,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///dotnet_bot_targetpath.png,false"
 					   Source="ms-appx:///dotnet_bot_targetpath.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -160,6 +170,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="dotnet_bot_targetpath.png,true"
 					   Source="dotnet_bot_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -172,6 +183,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/dotnet_bot_targetpath.png,true"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -191,6 +203,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///dotnet_bot_link_targetpath.png,false"
 					   Source="ms-appx:///dotnet_bot_link_targetpath.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -203,6 +216,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="dotnet_bot_link_targetpath.png,true"
 					   Source="dotnet_bot_link_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -215,6 +229,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/dotnet_bot_link_targetpath.png,true"
 					   Source="ms-appx:///ImagesTestApp/dotnet_bot_link_targetpath.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -240,6 +255,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/dotnet_bot_assets.png,false"
 					   Source="ms-appx:///Assets/dotnet_bot_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -252,6 +268,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/dotnet_bot_assets.png,true"
 					   Source="Assets/dotnet_bot_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -264,6 +281,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/dotnet_bot_assets.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -279,6 +297,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///Assets/r_dotnet_bot_assets.png,false"
 						   Source="ms-appx:///Assets/r_dotnet_bot_assets.png" />
 					<TextBlock Text="This image should NOT be shown!" />
 					<TextBlock Text="ms-appx://"
@@ -291,6 +310,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="Assets/r_dotnet_bot_assets.png,true"
 						   Source="Assets/r_dotnet_bot_assets.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="relative"
@@ -303,6 +323,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///ImagesTestApp/Assets/r_dotnet_bot_assets.png,true"
 						   Source="ms-appx:///ImagesTestApp/Assets/r_dotnet_bot_assets.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="ms-appx://ImagesTestApp"
@@ -320,6 +341,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/dotnet_bot_link_assets.png,false"
 					   Source="ms-appx:///Assets/dotnet_bot_link_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -332,6 +354,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/dotnet_bot_link_assets.png,true"
 					   Source="Assets/dotnet_bot_link_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -344,6 +367,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/dotnet_bot_link_assets.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_link_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -362,6 +386,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/dotnet_bot_targetpath_assets.png,false"
 					   Source="ms-appx:///Assets/dotnet_bot_targetpath_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -374,6 +399,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/dotnet_bot_targetpath_assets.png,true"
 					   Source="Assets/dotnet_bot_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -386,6 +412,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/dotnet_bot_targetpath_assets.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -405,6 +432,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/dotnet_bot_link_targetpath_assets.png,false"
 					   Source="ms-appx:///Assets/dotnet_bot_link_targetpath_assets.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -417,6 +445,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/dotnet_bot_link_targetpath_assets.png,true"
 					   Source="Assets/dotnet_bot_link_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -429,6 +458,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/dotnet_bot_link_targetpath_assets.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/dotnet_bot_link_targetpath_assets.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -454,6 +484,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/Images/dotnet_bot_assets_images.png,false"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -466,6 +497,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/Images/dotnet_bot_assets_images.png,true"
 					   Source="Assets/Images/dotnet_bot_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -478,6 +510,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_assets_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -493,6 +526,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///Assets/Images/r_dotnet_bot_assets_images.png,false"
 						   Source="ms-appx:///Assets/Images/r_dotnet_bot_assets_images.png" />
 					<TextBlock Text="This image should NOT be shown!" />
 					<TextBlock Text="ms-appx://"
@@ -504,6 +538,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="Assets/Images/r_dotnet_bot_assets_images.png,true"
 						   Source="Assets/Images/r_dotnet_bot_assets_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="relative"
@@ -515,6 +550,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///ImagesTestApp/Assets/Images/r_dotnet_bot_assets_images.png,true"
 						   Source="ms-appx:///ImagesTestApp/Assets/Images/r_dotnet_bot_assets_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="ms-appx://ImagesTestApp"
@@ -531,6 +567,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/Images/dotnet_bot_link_assets_images.png,false"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_link_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -542,6 +579,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/Images/dotnet_bot_link_assets_images.png,true"
 					   Source="Assets/Images/dotnet_bot_link_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -553,6 +591,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_link_assets_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_link_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -570,6 +609,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/Images/dotnet_bot_targetpath_assets_images.png,false"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_targetpath_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -581,6 +621,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/Images/dotnet_bot_targetpath_assets_images.png,true"
 					   Source="Assets/Images/dotnet_bot_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -592,6 +633,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_targetpath_assets_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -610,6 +652,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Assets/Images/dotnet_bot_link_targetpath_assets_images.png,false"
 					   Source="ms-appx:///Assets/Images/dotnet_bot_link_targetpath_assets_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -621,6 +664,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Assets/Images/dotnet_bot_link_targetpath_assets_images.png,true"
 					   Source="Assets/Images/dotnet_bot_link_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -632,6 +676,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_link_targetpath_assets_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Assets/Images/dotnet_bot_link_targetpath_assets_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -661,6 +706,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Images/dotnet_bot_images.png,false"
 					   Source="ms-appx:///Images/dotnet_bot_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -672,6 +718,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Images/dotnet_bot_images.png,true"
 					   Source="Images/dotnet_bot_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -683,6 +730,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Images/dotnet_bot_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -699,6 +747,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///Images/r_dotnet_bot_images.png,false"
 						   Source="ms-appx:///Images/r_dotnet_bot_images.png" />
 					<TextBlock Text="This image should NOT be shown!" />
 					<TextBlock Text="ms-appx://"
@@ -711,6 +760,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="Images/r_dotnet_bot_images.png,true"
 						   Source="Images/r_dotnet_bot_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="relative"
@@ -723,6 +773,7 @@
 						   ImageFailed="ImageFailed"
 						   Width="300"
 						   Height="300"
+						   Tag="ms-appx:///ImagesTestApp/Images/r_dotnet_bot_images.png,true"
 						   Source="ms-appx:///ImagesTestApp/Images/r_dotnet_bot_images.png" />
 					<TextBlock Text="This image SHOULD be visible!" />
 					<TextBlock Text="ms-appx://ImagesTestApp"
@@ -740,6 +791,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Images/dotnet_bot_link_images.png,false"
 					   Source="ms-appx:///Images/dotnet_bot_link_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -752,6 +804,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Images/dotnet_bot_link_images.png,true"
 					   Source="Images/dotnet_bot_link_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -764,6 +817,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Images/dotnet_bot_link_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_link_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -782,6 +836,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Images/dotnet_bot_targetpath_images.png,false"
 					   Source="ms-appx:///Images/dotnet_bot_targetpath_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -794,6 +849,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Images/dotnet_bot_targetpath_images.png,true"
 					   Source="Images/dotnet_bot_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -806,6 +862,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Images/dotnet_bot_targetpath_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"
@@ -825,6 +882,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///Images/dotnet_bot_link_targetpath_images.png,false"
 					   Source="ms-appx:///Images/dotnet_bot_link_targetpath_images.png" />
 				<TextBlock Text="This image should NOT be shown!" />
 				<TextBlock Text="ms-appx://"
@@ -837,6 +895,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="Images/dotnet_bot_link_targetpath_images.png,true"
 					   Source="Images/dotnet_bot_link_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="relative"
@@ -849,6 +908,7 @@
 					   ImageFailed="ImageFailed"
 					   Width="300"
 					   Height="300"
+					   Tag="ms-appx:///ImagesTestApp/Images/dotnet_bot_link_targetpath_images.png,true"
 					   Source="ms-appx:///ImagesTestApp/Images/dotnet_bot_link_targetpath_images.png" />
 				<TextBlock Text="This image SHOULD be visible!" />
 				<TextBlock Text="ms-appx://ImagesTestApp"

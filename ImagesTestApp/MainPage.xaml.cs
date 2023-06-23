@@ -31,12 +31,28 @@ namespace ImagesTestApp
 
         private void ImageLoaded(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine($"Image loaded - {((sender as Image)!.Source as BitmapImage)?.UriSource}");
+            HandleImageEvent(sender as Image, e, true);
+            //System.Diagnostics.Debug.WriteLine($"Image loaded - {((sender as Image)!.Source as BitmapImage)?.UriSource}");
         }
 
         private void ImageFailed(object sender, ExceptionRoutedEventArgs e)
         {
-            System.Diagnostics.Debug.WriteLine($"Image failed to load - {((sender as Image)!.Source as BitmapImage)?.UriSource}");
+            HandleImageEvent(sender as Image, e, false);
+            //System.Diagnostics.Debug.WriteLine($"Image failed to load - {((sender as Image)!.Source as BitmapImage)?.UriSource}");
         }
+
+        private void HandleImageEvent(Image sender, RoutedEventArgs e, bool success)
+        {
+            var tagBits = (sender.Tag as string).Split(',');
+            var originalSource = tagBits[0];
+            var shouldLoad = bool.Parse(tagBits[1]);
+            if (shouldLoad != success)
+            {
+                System.Diagnostics.Debug.WriteLine($"Image {(shouldLoad ? "SHOULD" : "should NOT")} load but {(success ? "DID" : "did NOT")} load - "+
+                    $"Original Source '{originalSource}' Actual Source '{((sender as Image)!.Source as BitmapImage)?.UriSource}'");
+
+            }
+        }
+
     }
 }
