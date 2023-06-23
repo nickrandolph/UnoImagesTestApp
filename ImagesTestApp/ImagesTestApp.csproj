@@ -37,6 +37,8 @@
 	</ItemGroup>
 	<ItemGroup Condition="'$(TargetFramework)'!='net7.0-windows10.0.18362'">
 		<Content Include="Assets\**" />
+		<Content Include="Images\**" />
+		<Content Include="dotnet_bot.png" />
 		<Page Include="**\*.xaml" Exclude="bin\**\*.xaml;obj\**\*.xaml" />
 		<ApplicationDefinition Include="App.xaml" Condition="exists('App.xaml')" />
 		<Compile Update="**\*.xaml.cs">
